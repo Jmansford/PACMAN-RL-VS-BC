@@ -1,0 +1,57 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+build/
+dist/
+*.manifest
+*.spec
+
+# Testing and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+nosetests.xml
+
+# Logs and debug files
+*.log
+debug_logs/
+logs/
+
+# Keep output directories but not their contents
+outputs/*
+!outputs/.gitkeep
+
+models/*
+!models/.gitkeep
+
+test_results/*
+!test_results/.gitkeep
+
+# Demo plots
+experiments/demo_plots/
+
+# Specific model files
+pacman_dqn*.zip
